@@ -1,0 +1,17 @@
+spring:
+  application:
+   name: planefinder
+#  cloud:
+#    stream:
+#      bindings:
+#        reportPositions-out-0:
+#          destination: aircraftpositions
+#          binder: rabbit          
+  rsocket:
+    server:
+      port: 7635
+              
+server:
+  port: 7634
+
+  
